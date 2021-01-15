@@ -15,6 +15,7 @@
 [![RustActions](https://github.com/LucianoBestia/rust_wasm_websocket/workflows/rust/badge.svg)](https://github.com/LucianoBestia/rust_wasm_websocket/)
 [![latest doc](https://img.shields.io/badge/latest_docs-GitHub-orange.svg)](https://lucianobestia.github.io/rust_wasm_websocket/rust_wasm_websocket/index.html)
 [![Licence](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/LucianoBestia/rust_wasm_websocket/blob/master/LICENSE)
+[![MSRV](https://img.shields.io/badge/rust_ver-1.48-yellow.svg)](https://github.com/LucianoBestia/crate_name/)
 
 [comment]: # (lmake_lines_of_code start)
 [![Lines in Rust code](https://img.shields.io/badge/Lines_in_Rust-236-green.svg)](https://github.com/LucianoBestia/rust_wasm_websocket/)
