@@ -5,7 +5,7 @@
 [comment]: # (lmake_cargo_toml_to_md start)
 
 **crate for wasm websocket**  
-***[repo](https://github.com/LucianoBestia/rust_wasm_websocket); version: 0.5.2  date: 2021-01-15 authors: Luciano Bestia***  
+***[repo](https://github.com/LucianoBestia/rust_wasm_websocket); version: 0.5.5  date: 2021-01-15 authors: Luciano Bestia***  
 
 [comment]: # (lmake_cargo_toml_to_md end)
 
@@ -17,8 +17,8 @@
 [![Licence](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/LucianoBestia/rust_wasm_websocket/blob/master/LICENSE)
 
 [comment]: # (lmake_lines_of_code start)
-[![Lines in Rust code](https://img.shields.io/badge/Lines_in_Rust-237-green.svg)](https://github.com/LucianoBestia/rust_wasm_websocket/)
-[![Lines in Doc comments](https://img.shields.io/badge/Lines_in_Doc_comments-21-blue.svg)](https://github.com/LucianoBestia/rust_wasm_websocket/)
+[![Lines in Rust code](https://img.shields.io/badge/Lines_in_Rust-236-green.svg)](https://github.com/LucianoBestia/rust_wasm_websocket/)
+[![Lines in Doc comments](https://img.shields.io/badge/Lines_in_Doc_comments-52-blue.svg)](https://github.com/LucianoBestia/rust_wasm_websocket/)
 [![Lines in Comments](https://img.shields.io/badge/Lines_in_comments-50-purple.svg)](https://github.com/LucianoBestia/rust_wasm_websocket/)
 [![Lines in examples](https://img.shields.io/badge/Lines_in_examples-0-yellow.svg)](https://github.com/LucianoBestia/rust_wasm_websocket/)
 [![Lines in tests](https://img.shields.io/badge/Lines_in_tests-0-orange.svg)](https://github.com/LucianoBestia/rust_wasm_websocket/)
