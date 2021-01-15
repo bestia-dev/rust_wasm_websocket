@@ -30,6 +30,10 @@
 The library contains the generic parts.  
 The specific implementation needs to implement the WebSocketTrait.  
 
+## Used in projects
+
+<https://github.com/LucianoBestia/unforgettable7_game/>  
+
 ## cargo crev reviews and advisory
 
 It is recommended to always use [cargo-crev](https://github.com/crev-dev/cargo-crev)  
