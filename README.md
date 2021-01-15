@@ -9,12 +9,12 @@
 
 [comment]: # (lmake_cargo_toml_to_md end)
 
-[![crates.io](https://meritbadge.herokuapp.com/qrcode53bytes)](https://crates.io/crates/qrcode53bytes)
-[![Documentation](https://docs.rs/qrcode53bytes/badge.svg)](https://docs.rs/qrcode53bytes/)
-[![crev reviews](https://web.crev.dev/rust-reviews/badge/crev_count/qrcode53bytes.svg)](https://web.crev.dev/rust-reviews/crate/qrcode53bytes/)
-[![RustActions](https://github.com/LucianoBestia/qrcode53bytes/workflows/rust/badge.svg)](https://github.com/LucianoBestia/qrcode53bytes/)
-[![latest doc](https://img.shields.io/badge/latest_docs-GitHub-orange.svg)](https://lucianobestia.github.io/qrcode53bytes/qrcode53bytes/index.html)
-[![Licence](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/LucianoBestia/qrcode53bytes/blob/master/LICENSE)
+[![crates.io](https://meritbadge.herokuapp.com/rust_wasm_websocket)](https://crates.io/crates/rust_wasm_websocket)
+[![Documentation](https://docs.rs/rust_wasm_websocket/badge.svg)](https://docs.rs/rust_wasm_websocket/)
+[![crev reviews](https://web.crev.dev/rust-reviews/badge/crev_count/rust_wasm_websocket.svg)](https://web.crev.dev/rust-reviews/crate/rust_wasm_websocket/)
+[![RustActions](https://github.com/LucianoBestia/rust_wasm_websocket/workflows/rust/badge.svg)](https://github.com/LucianoBestia/rust_wasm_websocket/)
+[![latest doc](https://img.shields.io/badge/latest_docs-GitHub-orange.svg)](https://lucianobestia.github.io/rust_wasm_websocket/rust_wasm_websocket/index.html)
+[![Licence](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/LucianoBestia/rust_wasm_websocket/blob/master/LICENSE)
 
 [comment]: # (lmake_lines_of_code start)
 [![Lines in Rust code](https://img.shields.io/badge/Lines_in_Rust-237-green.svg)](https://github.com/LucianoBestia/rust_wasm_websocket/)
