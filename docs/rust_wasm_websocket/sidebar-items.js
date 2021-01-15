@@ -1,0 +1,1 @@
+initSidebarItems({"mod":[["websocket_mod","module that cares about WebSocket communication"]]});

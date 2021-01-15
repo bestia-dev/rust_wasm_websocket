@@ -1,0 +1,3 @@
+(function() {var implementors = {};
+implementors["rust_wasm_websocket"] = [{"text":"impl&lt;'de&gt; Deserialize&lt;'de&gt; for WsMessageToServer","synthetic":false,"types":[]},{"text":"impl&lt;'de&gt; Deserialize&lt;'de&gt; for WsMessageFromServer","synthetic":false,"types":[]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

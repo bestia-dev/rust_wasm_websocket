@@ -1,0 +1,210 @@
+# rust_wasm_websocket/Makefile.toml
+#https://github.com/sagiegurari/cargo-makefile
+
+[config]
+skip_core_tasks = true
+
+[tasks.default]
+description = "help for prepared make tasks"
+clear = true
+script= [
+"clear",
+"echo ",
+"echo COMMANDS AND MAKE TASKS:",
+"echo ",
+"echo $ clear - clear the screen",
+"echo $ cargo make - this list",
+"echo ",
+"echo $ cargo make check - check code errors without compiling",
+"echo $ cargo make increment_minor - if needed increment semver minor",
+"echo $ cargo make release - build release version, increment semver patch in Cargo.toml",
+"echo ",
+"echo $ cargo make test - test the test code",
+"echo $ cargo make udeps - cargo +nightly udeps - unused dependencies",
+"echo $ cargo crev verify - always verify you dependencies",
+"echo $ cargo make audit - RustSec advisories",
+"echo $ cargo make doc - includes from Cargo.toml to README.md and from README.md to main.rs or lib.rs, generates doc and copies to docs folder, exports codetour to .md.",
+"echo ",
+"echo $ cargo make commit commit_message - git commit ",
+"echo $ cargo make amend  - amend to last commit ",
+"echo $ cargo make git_push - git push",
+"echo ",
+"echo $ cargo make crates_io_dry_run - prepare publishing for crates.io",
+"echo $ cargo make crates_io_publish - git tag and publish to crates.io",
+"echo ",
+]
+
+# end of help
+# end of help
+# end of help
+
+[tasks.check]
+description = "cargo check --release"
+clear = true
+script = [
+    "clear",
+    "echo $ cargo fmt",
+    "cargo fmt",
+    "echo $ cargo check --release",
+    "cargo check --release",
+]
+
+# end of dev scripts
+# end of dev scripts
+# end of dev scripts
+
+[tasks.increment_minor]
+description = "increments semver minor"
+clear = true
+script = [
+    "clear",
+    "lmake_semver --increment=minor",
+]
+
+[tasks.release]
+description = "cargo build release"
+clear = true
+script = [
+    "clear",
+    # Library version is semver
+    "echo $ lmake_semver --increment=patch",
+    "lmake_semver --increment=patch",
+    "echo $ cargo fmt",
+    "cargo fmt",
+    "echo $ cargo build --release",
+    "cargo build --release",
+]
+
+# end of release scripts
+# end of release scripts
+# end of release scripts
+
+[tasks.test]
+description = "cargo test"
+clear = true
+script = [
+    "clear",
+    "echo $ cargo test",
+    "cargo test",
+]
+
+[tasks.udeps]
+description = "lists unused dependencies needs nightly"
+clear = true
+script = [
+	"cargo +nightly udeps",
+]
+
+[tasks.verify]
+description = "cargo crev verify - "
+clear = true
+script = [
+    "clear",
+    "cargo crev verify"
+]
+
+[tasks.audit]
+description = "cargo audit - RustSec advisories"
+clear = true
+script = [
+    "clear",
+    "cargo audit"
+]
+
+[tasks.doc]
+description = "cargo doc - create docs from doc comments"
+clear = true
+script= [
+    "clear",
+    "echo $ lmake_lines_of_code",
+    "lmake_lines_of_code",
+    "echo $ lmake_cargo_toml_to_md",
+    "lmake_cargo_toml_to_md",
+    "echo $ lmake_md_to_doc_comments",
+    "lmake_md_to_doc_comments",
+    "echo $ cargo doc --no-deps --document-private-items",
+    # create doc from doc comments
+    "cargo doc --no-deps --document-private-items",
+    "echo $ codetour_export_to_md",
+    # export code tour to md
+    "codetour_export_to_md",
+    # copy to /docs/ because it is github standard
+    "echo $ rsync -a --info=progress2 --delete-after target/doc/ docs/",
+    "rsync -a --info=progress2 --delete-after target/doc/ docs/",
+    # create simple index.html file in docs folder
+    "echo create simple index.html file in docs folder",
+    "echo \"<meta http-equiv=\\\"refresh\\\" content=\\\"0; url=${CARGO_MAKE_CRATE_NAME}/index.html\\\" />\" > docs/index.html",
+    # message to help user with next move
+    "echo after successful doc, run cargo make commit msg_for_commit",
+]
+
+[tasks.commit]
+description = "cargo fmt and git commit"
+clear = true
+script = [
+    "clear",
+    "echo $ cargo fmt",
+    "cargo fmt",
+    "echo $ git add -A",
+    "git add -A",
+    "echo $ git commit -a -m \"${@}\"",
+    "git commit -a -m \"${@}\"",
+    "echo after successful fmt and git commit, run $ cargo make git_push",
+]
+
+[tasks.amend]
+description = "git --amend to last commit for small changes and corrections"
+clear = true
+script = [
+    "clear",
+    "echo $ cargo fmt",
+    "cargo fmt",
+    "echo $ git add .",
+    "git add .",
+    "echo $ git commit --amend",
+    "git commit --amend",
+    "echo after successful git commit, run $ cargo make git_push",
+]
+
+[tasks.git_push]
+description = "push the commits to github, uses ssh agent"
+clear = true
+script = [
+    "clear",
+    "echo $ git push",
+    "git push",
+    "echo after successful git push, use $ cargo make crates_io_dry_run or publish_to_web",
+]
+
+# end of git script
+# end of git script
+# end of git script
+
+[tasks.crates_io_dry_run]
+clear = true
+description = "prepare before publishing to crates.io with dry-run"
+script = [
+    "clear",
+    "echo $ cargo publish --dry-run",
+    "cargo publish --dry-run",
+    "echo after successful dry-run, use $ cargo make crates_io_publish",
+]
+
+[tasks.crates_io_publish]
+clear = true
+description = "git tag and publish to crates.io"
+script = [
+    "clear",
+    # git tag
+    "echo $ git tag -f -a v${CARGO_MAKE_CRATE_VERSION} -m version_${CARGO_MAKE_CRATE_VERSION}",
+    "git tag -f -a v${CARGO_MAKE_CRATE_VERSION} -m version_${CARGO_MAKE_CRATE_VERSION}",
+    # cargo publish
+    "echo $ cargo publish",
+    "cargo publish",
+	"echo use this command to install new version from crates.io:",
+    "echo $ cargo install ${CARGO_MAKE_CRATE_NAME}"
+]
+
+# end of publish script
+# end of publish script
+# end of publish script

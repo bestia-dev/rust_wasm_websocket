@@ -1,0 +1,1 @@
+initSidebarItems({"enum":[["WsMessageFromServer","WsMessageFromServer enum for WebSocket The ws server will send this kind of msgs."],["WsMessageToServer","WsMessageToServer enum for WebSocket The ws server will perform an action according to this type."]],"fn":[["time_now_in_minutes","usize of time"]],"trait":[["WebSocketTrait",""]]});
