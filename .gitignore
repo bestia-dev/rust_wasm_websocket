@@ -1,0 +1,8 @@
+/target
+**/*.rs.bk
+wasm-pack.log
+/.vscode
+/pkg
+
+# ignore Cargo.lock for lib.rs, but DONT ignore for main.rs
+Cargo.lock
