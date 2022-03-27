@@ -5,7 +5,7 @@
 [comment]: # (lmake_cargo_toml_to_md start)
 
 **crate for wasm websocket**  
-***[repo](https://github.com/LucianoBestia/rust_wasm_websocket); version: 0.5.5  date: 2021-01-15 authors: Luciano Bestia***  
+***version: 0.5.5  date: 2021-01-15 author: [dev_Bestia](https://bestia.dev) repository: [GitHub](https://github.com/LucianoBestia/rust_wasm_websocket)***  
 
 [comment]: # (lmake_cargo_toml_to_md end)
 
