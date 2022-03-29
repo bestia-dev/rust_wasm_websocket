@@ -9,7 +9,7 @@
 
 [comment]: # (lmake_cargo_toml_to_md end)
 
-[![crates.io](https://meritbadge.herokuapp.com/rust_wasm_websocket)](https://crates.io/crates/rust_wasm_websocket)
+[![crates.io](https://img.shields.io/crates/v/rust_wasm_websocket.svg)](https://crates.io/crates/rust_wasm_websocket)
 [![Documentation](https://docs.rs/rust_wasm_websocket/badge.svg)](https://docs.rs/rust_wasm_websocket/)
 [![crev reviews](https://web.crev.dev/rust-reviews/badge/crev_count/rust_wasm_websocket.svg)](https://web.crev.dev/rust-reviews/crate/rust_wasm_websocket/)
 [![RustActions](https://github.com/bestia-dev/rust_wasm_websocket/workflows/rust/badge.svg)](https://github.com/bestia-dev/rust_wasm_websocket/)
