@@ -14,7 +14,7 @@
 [![crev reviews](https://web.crev.dev/rust-reviews/badge/crev_count/rust_wasm_websocket.svg)](https://web.crev.dev/rust-reviews/crate/rust_wasm_websocket/)
 [![RustActions](https://github.com/bestia-dev/rust_wasm_websocket/workflows/rust/badge.svg)](https://github.com/bestia-dev/rust_wasm_websocket/)
 [![latest doc](https://img.shields.io/badge/latest_docs-GitHub-orange.svg)](https://bestia-dev.github.io/rust_wasm_websocket/rust_wasm_websocket/index.html)
-[![Licence](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/bestia-dev/rust_wasm_websocket/blob/master/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/bestia-dev/rust_wasm_websocket/blob/master/LICENSE)
 [![MSRV](https://img.shields.io/badge/rust_ver-1.48-yellow.svg)](https://github.com/bestia-dev/crate_name/)
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbestia-dev%2Frust_wasm_websocket&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
@@ -27,6 +27,8 @@
 [![Lines in tests](https://img.shields.io/badge/Lines_in_tests-0-orange.svg)](https://github.com/bestia-dev/rust_wasm_websocket/)
 
 [comment]: # (lmake_lines_of_code end)
+
+Hashtags: #rustlang #tutorial #websocket
 
 ## websocket
 
