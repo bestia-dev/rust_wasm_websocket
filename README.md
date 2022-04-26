@@ -16,8 +16,10 @@
 [![latest doc](https://img.shields.io/badge/latest_docs-GitHub-orange.svg)](https://bestia-dev.github.io/rust_wasm_websocket/rust_wasm_websocket/index.html)
 [![Licence](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/bestia-dev/rust_wasm_websocket/blob/master/LICENSE)
 [![MSRV](https://img.shields.io/badge/rust_ver-1.48-yellow.svg)](https://github.com/bestia-dev/crate_name/)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbestia-dev%2Frust_wasm_websocket&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 [comment]: # (lmake_lines_of_code start)
+
 [![Lines in Rust code](https://img.shields.io/badge/Lines_in_Rust-236-green.svg)](https://github.com/bestia-dev/rust_wasm_websocket/)
 [![Lines in Doc comments](https://img.shields.io/badge/Lines_in_Doc_comments-52-blue.svg)](https://github.com/bestia-dev/rust_wasm_websocket/)
 [![Lines in Comments](https://img.shields.io/badge/Lines_in_comments-50-purple.svg)](https://github.com/bestia-dev/rust_wasm_websocket/)
