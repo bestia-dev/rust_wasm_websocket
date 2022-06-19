@@ -28,7 +28,8 @@
 
 [comment]: # (lmake_lines_of_code end)
 
-Hashtags: #rustlang #tutorial #websocket
+Hashtags: #rustlang #tutorial #websocket  
+My projects on Github are more like a tutorial than a finished product: [bestia-dev tutorials](https://github.com/bestia-dev/tutorials_rust_wasm).
 
 ## websocket
 
