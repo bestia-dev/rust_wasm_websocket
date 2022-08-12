@@ -16,7 +16,7 @@
 [![latest doc](https://img.shields.io/badge/latest_docs-GitHub-orange.svg)](https://bestia-dev.github.io/rust_wasm_websocket/rust_wasm_websocket/index.html)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/bestia-dev/rust_wasm_websocket/blob/master/LICENSE)
 [![MSRV](https://img.shields.io/badge/rust_ver-1.48-yellow.svg)](https://github.com/bestia-dev/crate_name/)
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbestia-dev%2Frust_wasm_websocket&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+![Hits](https://bestia.dev/webpage_hit_counter/get_svg_image/986643609)
 
 [comment]: # (lmake_lines_of_code start)
 
