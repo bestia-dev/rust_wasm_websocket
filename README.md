@@ -41,14 +41,6 @@ The specific implementation needs to implement the WebSocketTrait.
 
 <https://github.com/bestia-dev/unforgettable7_game/>  
 
-## cargo crev reviews and advisory
-
-It is recommended to always use [cargo-crev](https://github.com/crev-dev/cargo-crev)  
-to verify the trustworthiness of each of your dependencies.  
-Please, spread this info.  
-On the web use this url to read crate reviews. Example:  
-<https://web.crev.dev/rust-reviews/crate/num-traits/>  
-
 ## Open-source and free as a beer
 
 My open-source projects are free as a beer (MIT license).  
