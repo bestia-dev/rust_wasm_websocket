@@ -7,7 +7,7 @@
 //! [![crates.io](https://meritbadge.herokuapp.com/rust_wasm_websocket)](https://crates.io/crates/rust_wasm_websocket)
 //! [![Documentation](https://docs.rs/rust_wasm_websocket/badge.svg)](https://docs.rs/rust_wasm_websocket/)
 //! [![crev reviews](https://web.crev.dev/rust-reviews/badge/crev_count/rust_wasm_websocket.svg)](https://web.crev.dev/rust-reviews/crate/rust_wasm_websocket/)
-//! [![RustActions](https://github.com/bestia-dev/rust_wasm_websocket/workflows/rust/badge.svg)](https://github.com/bestia-dev/rust_wasm_websocket/)
+//! [![rust_fmt_auto_build_tests](https://github.com/bestia-dev/rust_wasm_websocket/workflows/rust/badge.svg)](https://github.com/bestia-dev/rust_wasm_websocket/)
 //! [![latest doc](https://img.shields.io/badge/latest_docs-GitHub-orange.svg)](https://bestia-dev.github.io/rust_wasm_websocket/rust_wasm_websocket/index.html)
 //! [![Licence](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/bestia-dev/rust_wasm_websocket/blob/master/LICENSE)
 //!
